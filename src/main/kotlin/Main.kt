@@ -10,7 +10,6 @@
 //  4. REMEMBER TO USE THIS GITHUB WORKFLOW FOR EACH CHANGE - failure to use GitHub in this way will result in
 //     a lower grade for the assignment as it is a software development tooling module.
 // Hint: the week 2 syntax labs are a good support for completing this project
-package ie.wit.controlflow
 
 fun main(args: Array<String>) {
     minimumOf(5,7)
@@ -18,6 +17,8 @@ fun main(args: Array<String>) {
     inferredTypeOf(0.0F)
     stringContains("wordle")
 }
+
+//prints out the solution of true statement (if its lower then print, else print something else)
 
 fun minimumOf(number1: Long, number2: Long){
     //TODO This function takes in two numbers and:
@@ -46,6 +47,7 @@ fun minimumOf(number1: Long, number2: Long){
     println("--------------------------------")
 }
 
+//prints out the range of the category that number falls to
 
 fun rangeOf(number: Int){
     //TODO This function takes in a number and prints out the range that the number falls in.
@@ -64,6 +66,8 @@ fun rangeOf(number: Int){
 
 }
 
+//prints out the value of variable
+
 fun inferredTypeOf(variable: Any){
     //TODO This function examines the inferred type of the variable passed as a parameter.
     // When the type is Int, print out that the data type of the variable is Int.
@@ -80,6 +84,8 @@ fun inferredTypeOf(variable: Any){
 
     println("--------------------------------")
 }
+
+//prints out the letters that are contained in a string, if any are
 
 fun stringContains(str : String){
     //TODO If the string, passed as a parameter:
